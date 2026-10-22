@@ -11,7 +11,7 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
     "https://cdn1.amazaa.live/dbl/tudnusa/playlist.m3u8";
 
   const originUrl =
-    url.searchParams.get("origin") || https://dooballland.com/";
+    url.searchParams.get("origin") || "https://dooballland.com/";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
