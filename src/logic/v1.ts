@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://doodii.me";
+    url.searchParams.get("referer") || "https://kicksball.com";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://doodii-1.akamomo558.top/xstream/bein1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNiAyOjIwOjE2IEFNJmhhc2hfdmFsdWU9d2F2UmhwKzhZMmhyYUNjVVlDdVdQQT09JnZhbGlkbWludXRlcz0xMjAmaWQ9MQ==";
+    "https://dov.streaming-api.xyz/kicksballcom/alure-channel/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNiA1OjAzOjI3IEFNJmhhc2hfdmFsdWU9RVkrVzVBVWdtQ2xGWlNXT3dYSlJMUT09JnZhbGlkbWludXRlcz0yMA==";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://doodii-1.akamomo558.top/";
+    url.searchParams.get("origin") || "https://dov.streaming-api.xyz";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
