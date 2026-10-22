@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://www.123-hdc.com/";
+    url.searchParams.get("referer") || "https://doodii.me";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://main.24playerhd.com/newplaylist/36c61066faa22ec3eb36dfa1/36c61066faa22ec3eb36dfa1.m3u8";
+    "https://doodii-1.akamomo558.top/xstream/bein1/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNiAyOjIwOjE2IEFNJmhhc2hfdmFsdWU9d2F2UmhwKzhZMmhyYUNjVVlDdVdQQT09JnZhbGlkbWludXRlcz0xMjAmaWQ9MQ==";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://main.24playerhd.com";
+    url.searchParams.get("origin") || "https://doodii-1.akamomo558.top/";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
