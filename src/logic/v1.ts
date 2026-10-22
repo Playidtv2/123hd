@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://kicksball.com";
+    url.searchParams.get("referer") || "https://dooballland.com";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://dov.streaming-api.xyz/kicksballcom/alure-channel/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNiA1OjAzOjI3IEFNJmhhc2hfdmFsdWU9RVkrVzVBVWdtQ2xGWlNXT3dYSlJMUT09JnZhbGlkbWludXRlcz0yMA==";
+    "https://cdn1.amazaa.live/dbl/tudnusa/playlist.m3u8";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://dov.streaming-api.xyz";
+    url.searchParams.get("origin") || https://dooballland.com/";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
