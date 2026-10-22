@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://dooballland.com";
+    url.searchParams.get("referer") || "https://dooball99.top/";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://cdn1.amazaa.live/dbl/tudnusa/playlist.m3u8";
+    "https://t2trbgeura.akamomo558.top/do-ball.com/bein-1-th/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTAvMjIvMjAyNiA1OjEyOjE4IEFNJmhhc2hfdmFsdWU9Mit2eGk5WHpEK1hSMDdPY2ZSbDY2Zz09JnZhbGlkbWludXRlcz0zNjAmaWQ9MQ==";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://dooballland.com/";
+    url.searchParams.get("origin") || "https://dooball99.top";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
