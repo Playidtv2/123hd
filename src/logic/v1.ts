@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://www.dooball-doonang.com";
+    url.searchParams.get("referer") || "https://dooball24h.com/";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://vwvvw5.vvvwwv.shop/dbdn_x6/shopee73/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvOC8yMDI2IDY6MTE6MjcgQU0maGFzaF92YWx1ZT1WNGczTk9mRDFER01DVDgrU3hyR01BPT0mdmFsaWRtaW51dGVzPTEmc3RybV9sZW49MCZpZD0xNzk0MTE4Mjg3MTE3";
+    "https://cdn1.amazaa.live/db24h/event1/playlist.m3u8";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://www.dooball-doonang.com";
+    url.searchParams.get("origin") || "https://dooball24h.com";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
