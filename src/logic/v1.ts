@@ -4,14 +4,14 @@ export const M3u8ProxyV1 = async (request: Request): Promise<Response> => {
 
   // ค่าเริ่มต้น
   const refererUrl =
-    url.searchParams.get("referer") || "https://www.123-hdc.com";
+    url.searchParams.get("referer") || "https://www.dooball-doonang.com";
 
   const targetUrl =
     url.searchParams.get("url") ||
-    "https://main.24playerhd.com/m3u8/1dc383bd807686e785a25b4b/1dc383bd807686e785a25b4b438.m3u8";
+    "https://vwvvw5.vvvwwv.shop/dbdn_x6/shopee73/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTEvOC8yMDI2IDY6MTE6MjcgQU0maGFzaF92YWx1ZT1WNGczTk9mRDFER01DVDgrU3hyR01BPT0mdmFsaWRtaW51dGVzPTEmc3RybV9sZW49MCZpZD0xNzk0MTE4Mjg3MTE3";
 
   const originUrl =
-    url.searchParams.get("origin") || "https://www.123-hdc.com";
+    url.searchParams.get("origin") || "https://www.dooball-doonang.com";
 
   const corsHeaders = {
     "Access-Control-Allow-Origin": "*",
